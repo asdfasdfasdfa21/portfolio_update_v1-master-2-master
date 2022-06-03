@@ -114,8 +114,8 @@ header {
   font-size:25px;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+  margin: 20px;
+  padding: 20px 30px 0px;
   max-width: 500px;
   min-width:400px;
   text-align: left;
@@ -124,10 +124,11 @@ header {
   transition: all .5s;
 }
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 ul {
+  padding: 0px;
   list-style-type: none;
 }
 
